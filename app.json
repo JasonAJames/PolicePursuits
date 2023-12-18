@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "PolicePursuits",
+    "slug": "police-pursuits",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appandwebdevelopers.policepursuits"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.appandwebdevelopers.policepursuits"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d6d75f1-62f4-4664-ae9a-de1cd664a3d2"
+      }
+    },
+    "owner": "appandwebdevelopers-organization",
+    "runtimeVersion": "4.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/3d6d75f1-62f4-4664-ae9a-de1cd664a3d2"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "appandwebdevelopers-organization"
+        }
+      ]
+    ]
+  }
+}

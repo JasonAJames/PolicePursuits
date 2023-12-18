@@ -1,0 +1,34 @@
+{
+  "cli": {
+    "version": ">= 5.1.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview"
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "/Users/socalmarketingnow/Documents/AppsDeveloped/GooglePlayService-Publisher/pc-api-8318665133100502200-118-68431c2c8b65.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "appleid@jasonajames.com",
+        "ascAppId": "6468366260",
+        "appleTeamId": "BBF7X4VK9G"
+      }
+    }
+  }
+}
